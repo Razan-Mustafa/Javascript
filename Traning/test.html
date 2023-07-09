@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript</h1>
+<h2>Using new Date()</h2>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+
+
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML ="The value of z is: " + z;
+
+let a = 5;
+let b = 6;
+let c = a + b;
+document.getElementById("demo1").innerHTML =
+"The value of c is: " + c;
+
+const r = 5;
+const t = 6;
+const w = r + t;
+document.getElementById("demo2").innerHTML =
+"The value of w is: " + w;
+
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+
+const d = new Date();
+document.getElementById("demo3").innerHTML = d;
+
+const d1 = new Date("October 13, 2014 11:13:00");
+document.getElementById("demo4").innerHTML = d;
+
+const car = {type:"Fiat", model:"500", color:"white"};
+
+document.getElementById("demo5").innerHTML = "The car type is " + car.type;
+</script>
+
+</body>
+</html>
