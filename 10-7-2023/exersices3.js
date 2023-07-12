@@ -31,15 +31,10 @@ document.getElementById('demo6').innerHTML= (even);
 */
 for(m=1; m <= 8; m++)
 {
-for(n=1; n<=m; n++)
-{
-document.write(n);
-if(n == m)
-continue;
-else
-document.write(' ');
-}
-document.write('<br />');
+   for(n=1; n<=m; n++){
+   document.write(n + ' ');
+   }
+document.write('<br>');
 }
  /* 
 4.Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not.

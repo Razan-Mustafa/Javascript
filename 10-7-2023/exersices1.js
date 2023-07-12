@@ -41,7 +41,16 @@ else {
 }
 
 
- /******* End Your Code ********* */
+if (r*w*t<0){
+document.write("sign is -");
+}else {
+    document.write("sign is +");
+}
+
+
+
+
+/******* End Your Code ********* */
 
 /* 3. Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the result. Go to the editor 
 Sample numbers : 0, -1, 4 
