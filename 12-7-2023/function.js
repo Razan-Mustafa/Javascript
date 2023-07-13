@@ -257,11 +257,17 @@ Ex: shorterString("air","tr","car","github","by")
 => by
 
 */
-function shorterString(){
-
+function shorterString( ...stri ){
+let y=stri[0];
+for(let i=0; i<stri.length; i++){
+  if (y.length> stri[i].length){
+    y=stri[i]
+  }
 }
-  
+document.getElementById("demo9").innerHTML= (y);
+}
 
+shorterString("air","school","car","by","github")
 /*
 14
 Write a function called longerString
@@ -276,7 +282,16 @@ Ex: longerString("air","schoo","car","github")
 
 try all the cases (change the order of the longestString)
 */
-
+function longerString( ...stri ){
+  let z=stri[0];
+  for(let i=0; i<stri.length; i++){
+    if (z.length<stri[i].length){
+      z=stri[i]
+    }
+  }
+  document.getElementById("demo10").innerHTML= (z);
+  }
+  longerString("air","school","car","by","github")
 /*
 15
 Write a function called isEven
@@ -468,16 +483,23 @@ Ex: counter()
 => 3
 
 */
-function counter() {
-  let count = 1;
+// function counter() {
+//   let count = 1;
 
-  return function () {
-    return count++;
-  };
+//   return function () {
+//     return count++;
+//   };
+// }
+// c = counter();
+// document.getElementById("demo19").innerHTML= (c());
+// document.getElementById("demo20").innerHTML= (c());
+let count = 1;
+function counter() {
+  return count++;
 }
-c = counter();
-document.getElementById("demo19").innerHTML= (c());
-document.getElementById("demo20").innerHTML= (c());
+document.getElementById("demo19").innerHTML=(counter());
+document.getElementById("demo20").innerHTML= (counter());
+
 /*
 24
 Write a function called resetCounter
@@ -509,3 +531,14 @@ Ex: resetCounter()
 Ex: counter()
 => 1
 */
+function resetCounter()
+{
+    let rest=count;
+    count=0;
+    console.log(rest+ " and the counter reset now")
+}
+resetCounter();
+console.log(counter());
+console.log(counter());
+resetCounter();
+console.log(counter())
