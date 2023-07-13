@@ -63,8 +63,8 @@ Create a Variable to return the lastOfArray element in an array
 Ex: lastOfArray([1,4,5]) => 5
 Ex: lastOfArray(["t","u","g","x"]) => "x"
 */
-console.log (firstOfArray.length)
-console.log(firstOfArray [5-1])
+console.log (firstOfArray[firstOfArray.length-1]);
+// console.log(firstOfArray [5-1])
 
 /*
 6
@@ -105,7 +105,3 @@ Sample Output : -4,-3,1,2,3,5,6,7,8
 let unsortedArray = [ -3, 8, 7, 6, 5, -4, 3, 2, 1  ];
 let sortedArray = unsortedArray.sort();
 console.log(sortedArray);
-
-
-
-
