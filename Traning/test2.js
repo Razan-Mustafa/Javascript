@@ -79,3 +79,15 @@ do {
 }
 while (y < 10); 
 document.getElementById("demo7").innerHTML = text3;
+
+v= '5'
+console.log(parseFloat(v+'na'));
+console.log(typeof v);
+
+console.log(w=new String(v));
+console.log(typeof w);
+console.log(w);
+
+switch (op){
+  case 'number'
+}

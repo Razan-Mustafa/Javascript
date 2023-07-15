@@ -534,7 +534,7 @@ Ex: counter()
 function resetCounter()
 {
     let rest=count;
-    count=0;
+    count=1;
     console.log(rest+ " and the counter reset now")
 }
 resetCounter();
