@@ -1,0 +1,8 @@
+{
+"age4" : 30,
+"name4":"John",
+"arr4" :["Ford", "BMW", "Audi", "Fiat"],
+"obj4": {"name":"John", "age":30, "city":"New York"},
+"sale":true,
+"middlename":null
+}
