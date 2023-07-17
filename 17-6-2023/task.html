@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        table , td, th {
+            border: 1px solid rgb(138, 42, 112);
+            border-collapse: collapse;
+            padding: 10px;
+            font-size: 30px;            
+        }
+        button {
+            margin: 10px 10px 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="getdata()">Up Load Data</button>
+    <table id="table" >
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Major</th>
+            <th>University</th>
+            <th>Image</th>
+
+        </tr>
+    </table>
+     
+
+
+
+
+<script>
+    function getdata(){
+    const x=new XMLHttpRequest();
+    x.open("GET","task.json");
+    x.onload=function (){
+    const myobj=JSON.parse(this.responseText);
+    
+        
+        let t =document.getElementById("table")
+        for (let i=0 ; i<myobj.length ; i++){
+        let tr =document.createElement("tr")
+        t.appendChild(tr)
+
+        let td1 =document.createElement("td")
+        tr.appendChild(td1)
+        td1 .textContent = myobj[i].name
+        let td2 =document.createElement("td")
+        tr.appendChild(td2)
+        td2 .textContent = myobj[i].age
+        let td3 =document.createElement("td")
+        tr.appendChild(td3)
+        td3 .textContent = myobj[i].major
+        let td4 =document.createElement("td")
+        tr.appendChild(td4)
+        td4 .textContent = myobj[i].university
+        let td5 =document.createElement("td")
+        tr.appendChild(td5)
+        let im =document.createElement("img")
+        im.src = myobj[i].image
+        td5.appendChild(im)
+        im.style= "width:100px"
+
+    }
+}
+x.send();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+{"name": "Razan",
+    "age": "25",
+    "major": "Renewable energy engineer",
+    "university": "AL-albyt ",
+    "image": "r.jpg"
+},
+{"name": "Abeada",
+    "age": "22",
+    "major": "physics",
+    "university": "Yarmouk ",
+    "image": "a.jpg"
+},
+{"name": "Sawsan",
+    "age": "26",
+    "major": "CIS",
+    "university": "Yarmouk ",
+    "image": "b.jpg"
+},
+{"name": "Anfal",
+    "age": "24",
+    "major": "SE",
+    "university": "JUST ",
+    "image": "c.jpg"
+}
+]
