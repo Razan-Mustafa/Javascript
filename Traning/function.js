@@ -37,9 +37,13 @@ const person = {
   document.getElementById("demo3").innerHTML = person3.id[0];
   person3.firstName = "Razan";
   document.getElementById("demo4").innerHTML = person3.fullName();
-  document.getElementById("demo5").innerHTML = person3.car.namecar();
+  // document.getElementById("demo5").innerHTML = person3.car.namecar();
 
   let y = 50;
-  for (y=0){
-    
+  
+
+  caree ={
+    m: function(){
+      return "hello"}
   }
+console.log(typeof caree.m());
