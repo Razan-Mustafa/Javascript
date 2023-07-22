@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: brown;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.head{
+    font-size: 40px;
+}
+ .crud {
+    width: 50%;
+    margin: auto;
+ }
+
+ .head{
+    text-align: center;
+    margin: 50px;
+ }
+ .input{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+}
+ 
+#add {
+    width: 75%;
+    color: brown;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+ }
+.input :focus {
+    border: brown solid 5px;
+    transform: scale(1.08);
+ }
+ #btnadd {
+    width: 20%;
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: brown;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+
+ }
+ #btnadd:hover{
+    background-color: rgb(255, 201, 130);  
+}
+ .output{
+    margin: 20px 0;
+    
+ }
+ #search {
+    width: 100%;
+    color: brown;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+
+ }
+
+ #out{
+    margin: 5px ;
+    display:flex;
+    justify-content: space-between;
+ }
+ #delete{
+    width: 100%;
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: brown;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 10px 0;
+    font-weight: bolder;
+    height: 40px;
+}
+#delete:hover{
+    background-color: rgb(255, 201, 130);  
+}
+
+#outp{
+    font-size: 35px;
+}
+
+#b button {
+    height: 40px;
+    width: 40px;
+    margin: 0 0 0 10px;  
+    cursor: pointer;
+ }
+ .bi-trash3-fill{
+    font-size: 35px;
+ }
+ .bi-pencil-square{
+    font-size: 35px;
+ }

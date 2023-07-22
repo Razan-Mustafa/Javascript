@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+<div class="crud">
+    <div class="head">
+        <h1> TO DO LIST</h1>
+    </div>
+    <div class="input">
+        <input type="text" name="" id="add" placeholder=" add">
+        <button id="btnadd">Create</button>
+    </div>
+    <div class="search">
+        <input onkeyup="searchdata(this.value)" type="text" name="" id="search" placeholder=" search">
+        
+    </div>
+    <div class="output">
+        <div id="deleteall"></div>
+        <div id="data"></div>
+    </div>
+
+</div>
+    <script src="list.js"></script>
+</body>
+</html>

@@ -15,3 +15,4 @@ if (sessionStorage.length >0) {
 T2.onkeyup = function (){
     sessionStorage.setItem('input2', T2.value)
 }
+
