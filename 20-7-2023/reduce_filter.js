@@ -138,7 +138,7 @@ function usAndNumberBeetweenUs(num1, num2) {
   }, []);
 
   return result;
-}
+} 
 
 const numbersArray = usAndNumberBeetweenUs(2, 5);
 console.log(numbersArray);

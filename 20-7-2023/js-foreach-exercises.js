@@ -18,7 +18,7 @@ Test2 =[5,1,2,3,10]
 function doubleValues(arr){
   const doubledArray = [];
 
-  arr.forEach(function (value) {
+  arr.forEach(function (value) { 
     doubledArray.push(value * 2);
   });
 

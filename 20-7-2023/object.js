@@ -78,7 +78,7 @@ full =person.name.first + " " + person.name.last
 if (person.age > accumulator.age){
   accumulator.age = person.age
   accumulator.name =full
-}
+} 
 return accumulator
   },{age :0 , name: null})
   return old

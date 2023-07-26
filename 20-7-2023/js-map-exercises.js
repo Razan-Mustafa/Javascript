@@ -5,7 +5,7 @@ Instructions:
 
 
 /*
- * Exercise 1: 
+ * Exercise 1:  
  * 
  * Make an array of numbers that are doubles of the first array
  *

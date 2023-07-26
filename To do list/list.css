@@ -3,9 +3,10 @@
     padding: 0;
 }
 body {
-    background-color: brown;
+    background-color:antiquewhite;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
+    margin-top: 200px;
 }
 .head{
     font-size: 40px;
@@ -13,6 +14,10 @@ body {
  .crud {
     width: 50%;
     margin: auto;
+    background-color: brown;
+    padding: 50px;
+    border: solid 3px brown;
+    border-radius: 20px;
  }
 
  .head{

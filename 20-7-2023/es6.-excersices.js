@@ -65,7 +65,7 @@ function csvToObjectArray(csvString) {
     
     const obj = {};
     for (let j = 0; j < titles.length; j++) {
-      obj[titles[j]] = values[j];
+      obj[titles[j]] = values[j]; 
     }
     bigarray.push(obj);
   }
